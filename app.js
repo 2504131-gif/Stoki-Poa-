@@ -6,7 +6,7 @@
 var CONFIG = {
   shopName: "Stoki Poa Hardware",
   phone: "254790331965",   // PLACEHOLDER: shop number, international format, no "+"
-  sheetCsvUrl: "",         // "https://docs.google.com/spreadsheets/d/e/2PACX-1vQoh4F98jRGsROxTFHZ2lYvRS26LdMhObCGW0q66gZ3kVmeUhlo2TEkWAAL3ZZPPZc8rn3PxHRhYUDh/pub?gid=0&single=true&output=csv",
+  sheetCsvUrl: "https://docs.google.com/spreadsheets/d/e/2PACX-1vQoh4F98jRGsROxTFHZ2lYvRS26LdMhObCGW0q66gZ3kVmeUhlo2TEkWAAL3ZZPPZc8rn3PxHRhYUDh/pub?gid=0&single=true&output=csv",
   analyticsUrl: "",        // Optional: Google Apps Script web app URL (see apps-script/analytics.gs)
   mapsUrl: "",             // Optional: Google Maps link to the shop
   currency: "KES",
