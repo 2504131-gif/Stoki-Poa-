@@ -1,0 +1,19 @@
+{
+  "updated": "2026-11-19",
+  "note": "SAMPLE PRICES - replace every price and stock status with the shop's real ones before launch.",
+  "items": [
+    { "id": "cement-50", "name": "Cement 50kg", "cat": "Building", "unit": "bag", "price": 800, "stock": "in" },
+    { "id": "sand", "name": "Building sand", "cat": "Building", "unit": "tonne", "price": 2500, "stock": "low" },
+    { "id": "ballast", "name": "Ballast", "cat": "Building", "unit": "tonne", "price": 3000, "stock": "in" },
+    { "id": "bricks", "name": "Concrete block 6 inch", "cat": "Building", "unit": "piece", "price": 70, "stock": "in" },
+    { "id": "iron-sheet", "name": "Iron sheet (gauge 30)", "cat": "Roofing", "unit": "sheet", "price": 900, "stock": "in" },
+    { "id": "roof-nails", "name": "Roofing nails", "cat": "Roofing", "unit": "kg", "price": 250, "stock": "in" },
+    { "id": "nails-3", "name": "Wire nails 3 inch", "cat": "Fasteners", "unit": "kg", "price": 200, "stock": "in" },
+    { "id": "screws", "name": "Wood screws (box)", "cat": "Fasteners", "unit": "box", "price": 300, "stock": "out" },
+    { "id": "paint-white", "name": "Emulsion paint white 4L", "cat": "Paint", "unit": "tin", "price": 1800, "stock": "in" },
+    { "id": "brush", "name": "Paint brush 4 inch", "cat": "Paint", "unit": "piece", "price": 250, "stock": "in" },
+    { "id": "padlock", "name": "Padlock 50mm", "cat": "Security", "unit": "piece", "price": 450, "stock": "low" },
+    { "id": "pvc-pipe", "name": "PVC pipe 1/2 inch", "cat": "Plumbing", "unit": "piece", "price": 350, "stock": "in" },
+    { "id": "wire-2.5", "name": "Electric cable 2.5mm", "cat": "Electrical", "unit": "metre", "price": 90, "stock": "in" }
+  ]
+}
