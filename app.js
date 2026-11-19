@@ -5,7 +5,7 @@
    ============================================================ */
 var CONFIG = {
   shopName: "Stoki Poa Hardware",
-  phone: "254700000000",   // PLACEHOLDER: shop number, international format, no "+"
+  phone: "254790331965",   // PLACEHOLDER: shop number, international format, no "+"
   sheetCsvUrl: "",         // Optional: Google Sheet "Publish to web" CSV link for live prices
   analyticsUrl: "",        // Optional: Google Apps Script web app URL (see apps-script/analytics.gs)
   mapsUrl: "",             // Optional: Google Maps link to the shop
