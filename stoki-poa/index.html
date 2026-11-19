@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Stoki Poa Hardware | Hindi, Mokowe, Lamu</title>
+<meta name="description" content="Stoki Poa Hardware in Hindi/Mokowe, Lamu. See hardware prices and stock, build a shopping list, and order by WhatsApp or call.">
+<meta name="theme-color" content="#0e1013">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon-192.png">
+<link rel="apple-touch-icon" href="icon-192.png">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <h1>Stoki Poa Hardware</h1>
+    <p class="tag">Hindi / Mokowe, Lamu County &middot; Building and hardware supplies</p>
+    <div class="actions">
+      <a id="callBtn" class="btn" href="tel:+254700000000">Call us</a>
+      <a id="waBtn" class="btn btn-wa" href="https://wa.me/254700000000">WhatsApp</a>
+      <button id="installBtn" class="btn btn-ghost" type="button" hidden>Install app</button>
+    </div>
+    <p id="iosHint" class="hint" hidden>To install this page: tap the Share button, then &ldquo;Add to Home Screen&rdquo;.
+      <button id="iosClose" class="link" type="button">Close</button></p>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <section id="prices" aria-labelledby="h-prices">
+    <h2 id="h-prices">Prices and stock</h2>
+    <p id="updated" class="mute">Loading prices&hellip;</p>
+    <div class="controls">
+      <label class="sr" for="search">Search items</label>
+      <input id="search" type="search" placeholder="Search (cement, nails, paint...)" autocomplete="off">
+      <label class="sr" for="cat">Category</label>
+      <select id="cat"><option value="">All categories</option></select>
+    </div>
+    <ul id="list" class="list" aria-live="polite"></ul>
+    <noscript><p class="warn">Please turn on JavaScript to see prices, or call us.</p></noscript>
+  </section>
+
+  <section id="quote" aria-labelledby="h-quote">
+    <h2 id="h-quote">My shopping list (quote)</h2>
+    <div id="quoteBody"></div>
+    <div class="actions" id="quoteActions" hidden>
+      <button id="sendQuote" class="btn btn-wa" type="button">Send list on WhatsApp</button>
+      <button id="toDelivery" class="btn" type="button">Request delivery</button>
+      <button id="clearList" class="btn btn-ghost" type="button">Clear list</button>
+    </div>
+    <p class="mute small">Totals are estimates. Please confirm the final price and stock with the shop.</p>
+  </section>
+
+  <section id="delivery" aria-labelledby="h-del">
+    <h2 id="h-del">Delivery request</h2>
+    <form id="delForm" novalidate>
+      <label for="dName">Your name</label>
+      <input id="dName" name="name" type="text" autocomplete="name" required>
+
+      <label for="dPhone">Phone number</label>
+      <input id="dPhone" name="phone" type="tel" autocomplete="tel" placeholder="07XX XXX XXX" required>
+
+      <label for="dPlace">Delivery area</label>
+      <select id="dPlace" name="place" required>
+        <option value="">Choose area</option>
+        <option>Hindi</option>
+        <option>Mokowe</option>
+        <option>Lamu Town</option>
+        <option>Other</option>
+      </select>
+
+      <label for="dWhere">Landmark or directions</label>
+      <input id="dWhere" name="where" type="text" placeholder="Near the mosque, blue gate...">
+
+      <label for="dItems">Items needed</label>
+      <textarea id="dItems" name="items" rows="4" required></textarea>
+      <button id="useList" class="btn btn-ghost" type="button">Use my shopping list</button>
+
+      <label for="dDate">Preferred delivery day (optional)</label>
+      <input id="dDate" name="date" type="date">
+
+      <p id="dErr" class="warn" role="alert" hidden></p>
+      <button class="btn btn-wa" type="submit">Send request on WhatsApp</button>
+    </form>
+  </section>
+
+  <section id="reviews" aria-labelledby="h-rev" hidden>
+    <h2 id="h-rev">What customers say / Maoni ya wateja</h2>
+    <div id="revList" class="revs"></div>
+    <a id="revShare" class="btn btn-ghost" href="#">Share your experience</a>
+  </section>
+
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <p><strong>Stoki Poa Hardware</strong><br>Hindi / Mokowe, Lamu County, Kenya</p>
+    <p id="hours" class="mute">Opening hours: Mon&ndash;Sat 8:00 am &ndash; 6:00 pm</p>
+    <p><a id="mapLink" href="#" hidden>Open in Google Maps</a></p>
+  </div>
+</footer>
+
+<div id="bar" class="bar" hidden>
+  <span id="barText"></span>
+  <a href="#quote" class="btn">View list</a>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
