@@ -5,8 +5,8 @@
    ============================================================ */
 var CONFIG = {
   shopName: "Stoki Poa Hardware",
-  phone: "254700000000",   // PLACEHOLDER: shop number, international format, no "+"
-  sheetCsvUrl: "",         // Optional: Google Sheet "Publish to web" CSV link for live prices
+  phone: "254790331965",   // PLACEHOLDER: shop number, international format, no "+"
+  sheetCsvUrl: "",    https://docs.google.com/spreadsheets/d/e/2PACX-1vQoh4F98jRGsROxTFHZ2lYvRS26LdMhObCGW0q66gZ3kVmeUhlo2TEkWAAL3ZZPPZc8rn3PxHRhYUDh/pub?output=csv     
   analyticsUrl: "",        // Optional: Google Apps Script web app URL (see apps-script/analytics.gs)
   mapsUrl: "",             // Optional: Google Maps link to the shop
   pochi: "0790331965",     // Pochi la Biashara number customers pay to (leave empty to hide the payment section)
