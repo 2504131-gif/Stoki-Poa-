@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Ben",
+    "role": "Fundi",
+    "place": "Hindi",
+    "lang": "sw",
+    "text": "Nilipata cement haraka, delivery Hindi on the same day"
+  },
+  {
+    "name": "Mohammed",
+    "role": "Mvuvi",
+    "lang": "sw",
+    "text": "Naona bei kabla ya kufika dukani, na wakinijibu WhatsApp haraka. Nimeokoa muda na pesa za usafiri.",
+    "sample": true
+  },
+  {
+    "name": "Ali",
+    "role": "Fundi",
+    "lang": "en",
+    "text": "I get what I need for my jobs in one place. The stock list is clear, so I never waste a trip.",
+    "sample": true
+  }
+]

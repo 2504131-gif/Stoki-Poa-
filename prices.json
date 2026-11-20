@@ -1,0 +1,19 @@
+{
+  "updated": "2026-11-20",
+  "note": "SAMPLE PRICES - replace every price, stock status and restock date with the shop's real ones before launch. 'restock' (YYYY-MM-DD) is optional and only shown for low or out-of-stock items. Fields ending in _sw are the Kiswahili versions (optional).",
+  "items": [
+    { "id": "cement-50", "name": "Cement 50kg", "name_sw": "Saruji kilo 50", "cat": "Building", "cat_sw": "Ujenzi", "unit": "bag", "unit_sw": "mfuko", "price": 800, "stock": "in" },
+    { "id": "sand", "name": "Building sand", "name_sw": "Mchanga wa ujenzi", "cat": "Building", "cat_sw": "Ujenzi", "unit": "tonne", "unit_sw": "tani", "price": 2500, "stock": "low", "restock": "2026-11-27" },
+    { "id": "ballast", "name": "Ballast", "name_sw": "Kokoto", "cat": "Building", "cat_sw": "Ujenzi", "unit": "tonne", "unit_sw": "tani", "price": 3000, "stock": "in" },
+    { "id": "bricks", "name": "Concrete block 6 inch", "name_sw": "Tofali la zege inchi 6", "cat": "Building", "cat_sw": "Ujenzi", "unit": "piece", "unit_sw": "kipande", "price": 70, "stock": "in" },
+    { "id": "iron-sheet", "name": "Iron sheet (gauge 30)", "name_sw": "Bati (gauge 30)", "cat": "Roofing", "cat_sw": "Kuezeka", "unit": "sheet", "unit_sw": "bati", "price": 900, "stock": "in" },
+    { "id": "roof-nails", "name": "Roofing nails", "name_sw": "Misumari ya kuezekea", "cat": "Roofing", "cat_sw": "Kuezeka", "unit": "kg", "unit_sw": "kilo", "price": 250, "stock": "in" },
+    { "id": "nails-3", "name": "Wire nails 3 inch", "name_sw": "Misumari ya waya inchi 3", "cat": "Fasteners", "cat_sw": "Misumari na skrubu", "unit": "kg", "unit_sw": "kilo", "price": 200, "stock": "in" },
+    { "id": "screws", "name": "Wood screws (box)", "name_sw": "Skrubu za mbao (boksi)", "cat": "Fasteners", "cat_sw": "Misumari na skrubu", "unit": "box", "unit_sw": "boksi", "price": 300, "stock": "out", "restock": "2026-11-25" },
+    { "id": "paint-white", "name": "Emulsion paint white 4L", "name_sw": "Rangi ya emulsion nyeupe lita 4", "cat": "Paint", "cat_sw": "Rangi", "unit": "tin", "unit_sw": "kopo", "price": 1800, "stock": "in" },
+    { "id": "brush", "name": "Paint brush 4 inch", "name_sw": "Brashi ya rangi inchi 4", "cat": "Paint", "cat_sw": "Rangi", "unit": "piece", "unit_sw": "kipande", "price": 250, "stock": "in" },
+    { "id": "padlock", "name": "Padlock 50mm", "name_sw": "Kufuli 50mm", "cat": "Security", "cat_sw": "Usalama", "unit": "piece", "unit_sw": "kipande", "price": 450, "stock": "low", "restock": "2026-11-24" },
+    { "id": "pvc-pipe", "name": "PVC pipe 1/2 inch", "name_sw": "Bomba la PVC inchi 1/2", "cat": "Plumbing", "cat_sw": "Mabomba", "unit": "piece", "unit_sw": "kipande", "price": 350, "stock": "in" },
+    { "id": "wire-2.5", "name": "Electric cable 2.5mm", "name_sw": "Waya wa umeme 2.5mm", "cat": "Electrical", "cat_sw": "Umeme", "unit": "metre", "unit_sw": "mita", "price": 90, "stock": "in" }
+  ]
+}
